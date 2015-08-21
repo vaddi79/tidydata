@@ -1,4 +1,4 @@
-                        #Project Description
+                        ## Project Description ##
      
      
    ## Human Activity Recognition Using Smartphones Data Set 
