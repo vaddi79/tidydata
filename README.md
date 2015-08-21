@@ -79,9 +79,9 @@ run_analysis<-function(tidy) {
     
     activity_names1<-as.data.frame(activity)
     
-    ## now the column of "activity" cbinded to the merged data(includes onli mean and std measurements)
+    ## now the column of "activity" cbinded to the merged data(includes onli mean and std measurements)##
     
-    Merge_data_mean_std_activity<-cbind(activity_names1,Merge_data_mean_std)
+   ## Merge_data_mean_std_activity<-cbind(activity_names1,Merge_data_mean_std) ##
     
     ##  adding subject(id) data to (mean+std+activity ) data  ##
     
