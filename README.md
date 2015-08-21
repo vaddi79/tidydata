@@ -13,7 +13,8 @@ run_analysis<-function(tidy) {
     
     ## features data modified as the column names are duplicated ##
     ## Now below commands "features"" file loaded in features_data object of dim=561X1 is used as ##
-    ##variable names and added as column names to the both test data and train data such that you can ## ## select only mean and std   measurements ##
+    ##variable names and added as column names to the both test data and train data such that you can ## 
+    ## select only mean and std measurements ##
     
     
     
@@ -106,7 +107,8 @@ run_analysis<-function(tidy) {
     
     library(reshape2)
     
-    ##reshaping data with 'ID' and' avtivity' as observations,remaining as variables and taken average ##  ## (ie, mean ) by using melt and dcast functions##
+    ##reshaping data with 'ID' and' avtivity' as observations,remaining as variables and taken average ##
+    ## (ie, mean ) by using melt and dcast functions##
     ## average is taken for each ID and each activity ##
     ## 180 rows ie 30 ID* 6 activities, now the variables are mean of 'means' and mean of "std" ##
     
