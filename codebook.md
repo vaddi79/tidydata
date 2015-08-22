@@ -99,6 +99,7 @@ tBodyGyroMean,
 tBodyGyroJerkMean,
              
               ##TIDY DATA ##
+         Tidydata  variables are average of each variable for each activity(1 to 6) and each subject (ID 1 to 30) ,subject "ID" and activity are observations in rows and remaining measurements are variables(in columns)      
              
 VARIABLES IN TIDY DATA ARE THE MEAN (AVERAGE) OF THE FOLLOWING VARIABLES
 
